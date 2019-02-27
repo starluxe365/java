@@ -20,3 +20,38 @@
    |  除了ADMIN和APP项目外,其他微服务项目的接口返回值都使用同一的类,
    |  m.xiangxing.venus.base.framework.dto.BaseRespDto<T>；
    |  泛型T必须为具体对象不能使用基本数据结构和map类型。所有业务异常必须有统一的@ExceptionHandler方法处理。
+- 2.2 **入参类型**
+   *  GET: 简单参数,使用路径变量或者查询参数
+   *  POST:复杂参数,必须使用对象
+   *  PUT:同POST
+   *  DELETE:同GET
+
+第三章:注释
+----------------
+- 1.1 **swagger规范**
+- 1.1.1 **使用@ApiOperation每一个url资源的说明**
+        @ApiOperation(value = “获取用户列表”,notes = “根据url的id来获取用户详细信息，返回List类型的JSON用户信息”)
+- 1.1.2  **使用@ApiImplicitParam对容器(参数)的描述**
+        @ApiImplicitParam(name = “user”, value = “用户详细实体user”, required = true, dataType = “User”)
+- 1.1.3  **使用@ApiModelProperty对model中某字段属性的描述**
+        @ApiModelProperty(value = “id”,required = true)
+- 1.1.4  **model描述**
+   |  @ApiModelProperty(value = “用户姓名”,required = true)
+   |  private String name; 
+   |  对字段的描述
+- 2.1 **类注释和方法注释**
+    在Github上有模板
+
+第四章:代码
+---------------
+
+
+
+
+
+
+
+
+
+
+
