@@ -40,7 +40,7 @@
    |  private String name; 
    |  对字段的描述
 - 2.1 **类注释和方法注释**
-    在Github上有模板
+    `模板 <https://github.com/wj0910/java/blob/master/codetemplates.xml>`_
 
 第四章:代码
 ---------------
