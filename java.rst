@@ -44,10 +44,11 @@
 
 第四章:代码
 ---------------
-
-
-
-
+- 1.1 **基本规范**
+   *  实体类使用lomok,可以省略使用GET,SET方法
+   *  每个controller和service入口需要加log日志
+   *  待补充
+   *  [参考阿里巴巴java代码规范] `代码规范 <https://files-cdn.cnblogs.com/files/han-1034683568/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%E7%BB%88%E6%9E%81%E7%89%88v1.3.0.pdf>`_
 
 
 
